@@ -13,7 +13,7 @@ resource aws_instance instance_1 {
         Name = "terraform-1"
     }
     # security_groups = ["${aws_security_group.terraform_1_sg.id}"]
-    vpc_security_group_ids = ["${aws_security_group.terraform_1_sg.id}","${aws_security_group.terraform_2_sg.id}"]
+    #vpc_security_group_ids = ["${aws_security_group.terraform_1_sg.id}","${aws_security_group.terraform_2_sg.id}"]
 }
 
 resource "aws_security_group" "terraform_1_sg" {
