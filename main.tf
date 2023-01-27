@@ -41,7 +41,7 @@ resource "aws_security_group" "terraform_2_sg" {
 
 variable "port" {
     description = "port value used to listen the server"
-#     default = "80"
+    default = "80"
     type = string
   
 }
